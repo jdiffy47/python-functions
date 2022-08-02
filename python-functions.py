@@ -23,3 +23,12 @@
 
 
 # print(occurrences('Mooo', 'o'))
+
+
+def product(*args):
+  sum = 0
+  for arg in args:
+    sum = arg * arg
+  return sum
+
+print(product(2, 2))
