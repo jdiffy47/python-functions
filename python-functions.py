@@ -7,12 +7,19 @@
 # print(sum_to(6))
 
 
-def largest(*nums):
-  largest = 0
-  for num in nums:
-    if num > largest:
-      largest = num
-  return largest
+# def largest(*args):
+#   largest = 0
+#   for arg in args:
+#     if arg > largest:
+#       largest = arg
+#   return largest
 
 
-print(largest(2, 4, 6, 10, 150))
+# print(largest(2, 4, 6, 10, 150))
+
+
+# def occurrences(str1, str2):
+#   return str1.count(str2)
+
+
+# print(occurrences('Mooo', 'o'))
